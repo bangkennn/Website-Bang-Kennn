@@ -1,0 +1,499 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.index1{
+    background-image: url('Artboard 1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.index2{
+    background-image: url('background 2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.index3{
+    background-image: url('background 3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    padding-left: 4em;
+    padding-top: 2em;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 4em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    transition: 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: rgb(201, 125, 53);
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+nav ul li a.active {
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 15px rgb(218, 159, 117);
+}
+
+.hi, .welcome {
+    color: #e4d0a4;
+    margin-left: 60px;
+    margin-top: 100px;
+    text-shadow: 8px 8px 5px #000000;
+}
+
+.hi {
+    margin-bottom: -20px;
+    font-size: 5em;
+}
+
+.welcome {
+    margin-top: -10px;
+    font-size: 2em;
+}
+
+.isi {
+    color: rgb(255, 255, 255);
+    margin-left: 60px;
+    max-width: 700px;
+    overflow-wrap: break-word;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.download-cv {
+    position: absolute;
+    top: 40px;
+    right: 60px;
+    padding: 10px 20px;
+    background-color: #00000071;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 16px;
+    border: 2px solid rgba(255, 220, 187, 0.452);
+    transition: 0.3s ease;
+}
+
+.download-cv:hover {
+    background-color: #fffcdd;
+    border: 2px solid rgba(255, 220, 187, 0.452);
+    color: rgb(201, 125, 53);
+    transform: scale(1.1);
+    transition: 0.3s ease;
+}
+
+.linkedin {
+    position: absolute;
+    top: 40px;
+    right: 60px;
+    padding: 10px 20px;
+    background-color: #00000071;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 16px;
+    border: 2px solid rgba(255, 220, 187, 0.452);
+    transition: 0.3s ease;
+}
+
+.linkedin:hover {
+    background-color: #352bc9;
+    border: 2px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    transform: scale(1.1);
+    transition: 0.3s ease;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.box {
+    width: 40%; 
+    padding: 20px;
+    height: 530px;
+    border: 2px solid rgb(218, 159, 117);
+    background-color: #0000009f;
+}
+
+.box h1 {
+    color: rgb(228, 187, 127);
+    text-align: center;
+    border-bottom: 1px solid #ffcc9c65;
+    padding-bottom: 10px;
+    letter-spacing: 10px;
+}
+
+.left {
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    box-shadow: 10px 10px 20px rgb(0, 0, 0);
+    transition: 0.3s ease;
+}
+
+.box.left:hover {
+    box-shadow: 0 0 15px rgb(255, 236, 172);
+    transition: 0.3s ease;
+}
+
+.right {
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow: -10px 10px 20px rgb(0, 0, 0);
+    transition: 0.3s ease;
+}
+
+.box.right:hover {
+    box-shadow: 0 0 15px rgb(255, 236, 172);
+    transition: 0.3s ease;
+}
+
+.box ul li {
+    color: rgb(255, 231, 204); 
+    margin-bottom: 30px;
+}
+
+.social-link {
+    color: rgb(255, 233, 208);
+    font-size: 1.5em;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-left: 50%;
+    margin-top: 30px;
+    transition: 0.3s ease;
+    width: 600px;
+}
+
+.social-link:hover {
+    color: rgb(255, 233, 208);
+    font-size: 1.5em;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-left: 50%;
+    margin-top: 30px;
+    width: 600px;
+    transform: scale(1.1);
+    transition: 0.3s ease;
+}
+
+.social-link img {
+    width: 40px;
+    height: 40px;
+}
+
+.index3 h1 {
+    margin-left: 50%;
+    margin-top: 100px;
+    font-size: 4em;
+    color: rgb(255, 241, 204);
+    transition: 0.3s ease;
+}
+
+.social-media-links {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+@media screen and (min-width: 410px) and (max-width: 768px) {
+    
+    .index1{
+    background-position: -1000px center;
+    }
+
+    .hi, .welcome {
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 90px;
+    margin-bottom: -110px;
+    }
+
+    .isi{
+        text-align: center;
+        margin: 0 auto;
+        max-width: 350px;
+        margin-top: 170px;
+        font-size: 14px;
+        text-shadow: 0px 0px 7px #000000;
+
+    }
+
+    .download-cv {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: 170%;
+        text-align: center;
+        width: 190px;
+    }
+
+    .download-cv:hover{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: 170%;
+        text-align: center;
+        width: 190px;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+        font-size: 8px;
+        margin-top: 50px;
+    }
+
+    .container {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+    }
+
+    .box {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .box.left{
+        height: 700px
+    }
+
+    .box.right{
+        height: 450px;
+    }
+
+    .index3{
+        background-position: -150px center;
+        position: fixed;
+    }
+
+    .index3 h1{
+        margin-left: 0;
+        text-align: center;
+        width: 350px;
+        margin-left: 45px;
+    }
+
+    .social-link{
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        line-height: 50px; /* Dikurangi untuk membuat lebih kecil */
+        transition: transform 0.3s ease;
+        font-size: 18px;
+        margin-left: 60px;
+        width: 300px;
+    }
+
+    .social-link:hover{
+        display: block;
+        margin: 0 ;
+        text-align: center;
+        line-height: 50px; /* Dikurangi untuk membuat lebih kecil */
+        transition: transform 0.3s ease;
+        font-size: 18px;
+        transform: scale(1.05); /* Skala diperkecil untuk efek hover yang lebih halus */
+        margin-left: 45px;
+        width: 300px;
+    }
+
+    .index3 img {
+        margin-right: 15px; /* Margin dikurangi untuk penyesuaian */
+        margin-top: 5px; /* Margin dikurangi untuk penyesuaian */
+        width: 25px; /* Ukuran dikurangi */
+        height: 25px; /* Ukuran dikurangi */
+    }
+
+
+    .linkedin {
+        position: relative;
+        display: block;
+        margin-left: 215px   ;
+        transform: translateX(-29%);
+        padding: 10px 20px;
+        background-color: #00000071;
+        color: white;
+        text-decoration: none;
+        border-radius: 30px;
+        font-size: 16px;
+        border: 2px solid rgba(255, 220, 187, 0.452);
+        transition: 0.3s ease;
+        text-align: center;
+        width: 50%;
+    }
+
+    .linkedin:hover {
+        background-color: #352bc9;
+        border: 2px solid rgb(255, 255, 255);
+        color: rgb(255, 255, 255);
+        transform: scale(1.1);
+        margin-left: 50%;
+        transform: translateX(-29%);
+        transition: 0.3s ease;
+    }
+
+    
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .index1{
+    background-position: right -50px center;
+    }
+
+    .hi, .welcome {
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    }
+
+    .isi{
+        text-align: center;
+        margin: 0 auto;
+        max-width: 500px;
+        margin-top: 50px;
+    }
+
+    .download-cv {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: 100%;
+        text-align: center;
+    }
+
+    .download-cv:hover{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: 100%;
+        text-align: center;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -30px;
+    }
+
+    .container {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+    }
+
+    .box {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .index3{
+        background-position: left center;
+    }
+
+    .index3 h1{
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .index3 h1:hover{
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .social-link{
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        line-height: 100px;
+        transition: transform 0.3 ease ;
+    }
+
+    .social-link:hover{
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        transform: scale(1.1);
+        transition: transform 0.3s ease;
+    }
+
+    .index3 img {
+        margin-right:20px;
+        margin-top: 10px;
+        width: 30px;
+        height: 30px;
+    }
+
+    .index3 a{
+        margin-top: -10px;
+    }
+
+    .linkedin {
+        position: relative;
+        display: block;
+        margin-left: 50%;
+        transform: translateX(-35%);
+        padding: 10px 20px;
+        background-color: #00000071;
+        color: white;
+        text-decoration: none;
+        border-radius: 30px;
+        font-size: 16px;
+        border: 2px solid rgba(255, 220, 187, 0.452);
+        transition: 0.3s ease;
+        text-align: center;
+    }
+
+    .linkedin:hover {
+        background-color: #352bc9;
+        border: 2px solid rgb(255, 255, 255);
+        color: rgb(255, 255, 255);
+        transform: scale(1.1);
+        margin-left: 50%;
+        transform: translateX(-35%);
+        transition: 0.3s ease;
+    }
+
+    
+}
+
