@@ -235,7 +235,7 @@ nav ul li a.active {
 @media screen and (min-width: 10px) and (max-width: 768px) {
     
     .index1{
-    background-position: -1000px center;
+    background-position: -800px center;
     }
 
     .hi, .welcome {
